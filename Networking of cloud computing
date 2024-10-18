@@ -114,15 +114,30 @@ _____________________             ___________                |              |___
 
 
 
+***Routing:
+   --------
+Routing is the process of selecr=ting a path for traffic in a network or Between or across multiple networks.Broadly,routing is performed in many types of networks,include 
+circuit-switched networks,such as a public switched telephone network and computer networks, such as a the internet.
 
+                                                            Types of routing
+                             _______________________________________________________________________________
+                            |                                       |                                       |      
+                     Static Routing                          Dynamic Routing                        Default Routing
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            Routing Algorithms:
+                                                                     |
+                        ________________________________________________________________________________________________________
+                        |                                                |                                                     |
+               Adaptive routing Algorithm                     Non-adaptive routing Algorithm                        Hybrid routing Algorithm
+                  1.Isolated                                          1.Flooding                                          1.Link state
+                  2.Centralized                                       2. Random walk                                      2. distance vector
+                  3.Distributed
 
-
-
-
-
-
-
+Adaptive algorith       :----reflect change in topology.
+                             Get information locally from adjective routers.
+Non-adaptive Alogorithm :----Static routers.
+                             Doenloaded to router when network is booted.
 
 
 
