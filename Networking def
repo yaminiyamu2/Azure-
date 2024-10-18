@@ -62,3 +62,89 @@ It encompasses a variety of services and technologies that facilitate the secure
    ->Benefits: Eliminates the need for a public IP address on the VM and mitigates common vulnerabilities associated with direct exposure.
    ->Use Cases: Enhances security for remote management of Azure resources.
 
+
+
+
+
+***what are the uses of Networking?
+In the context of Azure cloud computing, "using networking" refers to the implementation and management of various networking 
+services and features to facilitate communication, security, and connectivity between resources. 
+1. Connecting Resources
+2. Secure Connectivity
+3. Remote Access
+4. Load Balancing and Traffic Management
+5. Global Traffic Distribution
+6. Monitoring and Diagnostics
+7. Integration with On-Premises Networks
+8. Scalability and Performance Optimization
+
+
+
+***how many types of networking's here in present? 
+In the context of Azure cloud computing, there are several types of networking services and components available.
+1. Virtual Networking
+2. Connectivity Services
+3. Load Balancing
+4. Traffic Management
+5. Network Security
+6. Monitoring and Diagnostics
+7. Hybrid Networking
+8. Private Link and Service Endpoint
+9. Content Delivery and Caching
+
+
+***why would you using Networking ?
+Using networking in Azure is essential for several key reasons, as it enables organizations to effectively manage their cloud infrastructure
+and enhance application performance.Here are some compelling reasons to use networking in Azure:
+1. Secure Communication
+2. Resource Connectivity
+3. High Availability and Load Balancing
+4. Performance Optimization
+5. Scalability
+6. Monitoring and Diagnostics
+7. Cost Management
+8. Regulatory Compliance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
