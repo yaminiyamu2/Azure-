@@ -24,6 +24,285 @@ IPV4 addresses are categorized into 3 basic types:
 
 ***IPV6 ip addressing:
    -------------------
+An IPV6 address is represented as eight groups of four hexadecimal digits,each group representing 16 bits the groups are separeated by colomns.
+The standereds provide flexbility in the representation of IPV6 addresses.
+ex:
+2001:0DB8:AC01:FE01:0000:0000:0000:0000
+0010000000000001:0000110110111000:1010110000010000:111111000000001
+EX-2:
+2001:0bd8:ac01:fe01:0000:0000:1a2f:1a2b
+--------------/ ---/ -------------------
+     |            |               |
+   Site        subnet            Interface
+   prefix        ID                  ID
+   ----------------
+         |
+      Networking
+      prefix
+IPV6 addresses are 3 types:
+1.Unicast address mode.
+2.Multicast address mode.
+3.Anycast address mode.
+
+***Subnetting:
+   ------------
+Subnetting is the process of creating a subnetwork (also known as a subnet)within a network.Network interface and device with ina
+subnet can communicate with each other direction.Routers facilitate communication between different subnet.
+5 classes of subnetting:
+1. Class A: First octet value 0-126
+2. Class A: First octet value 128-191
+3. Class A: First octet value 191-233
+4. Class A: First octet value 224-239
+5. Class A: First octet value 240-255
+------------------------------------------------------------------------------------------------------------------------------------
+|      Class               Range                  Length of network               # of networks                  #of Hosts         |
+|                                                                                                                                  |
+|        A              1-126                       N H H H                        126                           16,777,214        |
+|                     1st bit= 0                       (8)                                                          (2^24)         |
+|----------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                  |
+|        B            128-191                       N N H H                        16.384                            65,534        |
+|                     2nd bit +10                     (16)                        (2^16)^-2=2^14                      (2^16)       |
+|----------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                  |
+|        C            192-223                     N N N H                        2,097,152                            254          |
+|                    3rd bit =110                     (24)                        2 millions(2^24-3)=2^21                          |
+-------------------------------------------------------------------------------------------------------------------------------------
+
+*Bradcast ID:
+Network IP  <---------| 1 | 254 | 1 | ---------> Broadcast IP
+                              |
+                           Host ID
+Number of HOSTS/NETWORK =2^host-bit-2
+
+*NETWORK ID:
+                                                    IP address
+                                        ____________________________________
+Before Subnetting ------------->         Network Identifier | Host identifer
+After Subnetting  ------------->         Network identifier | Subnet Identifier | Host identifier
+
+*CIDR:(Classless inter domain routing):
+ex:    202.201.150.10/27     (Class C) 11111111 11111111 11111111 11100000
+       15.10.65.40/15        (Class A) 11111111 11111110 00000000 00000000
+
+
+example-1: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
