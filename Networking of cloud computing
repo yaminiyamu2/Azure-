@@ -3,10 +3,27 @@
 Virtualization is technology that ypu can use to create virtual representations of services, storage networks and other physical machines.
 virtual software mimics the functions of physical hardware to run multiple virtual machines simultanenously on a single physical machines.
 
+***IPV4 ip Addressing:
+   --------------------
+IPV4 ip addresses are 32-bit numbers that are typically displayed in dotted decimal notation.A 32-bit addresscontains two primary parts:
+1.The Network prefix
+2.The Host number.
+All hosting within a singlenetwork share the same network address. Each host also has an address that uniquely identifiers it.
+ex:
+172.16.254.1
+10101100.00010000.11111110.00000001
+--------
+ 8 bits
+------------------------------------
+            32 bits(4 bytes)
 
+IPV4 addresses are categorized into 3 basic types:
+1.Unicast address.
+2.Multicast address.
+3.Broadcast address.
 
-
-
+***IPV6 ip addressing:
+   -------------------
 
 
 
