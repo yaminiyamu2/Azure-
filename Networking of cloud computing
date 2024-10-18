@@ -178,9 +178,24 @@ transmitted. It prevents unauthorized people from eavesdropping on the trafic & 
 WAN is the technology that connects your offices,data centures,cloud applications & cloud storage together. It is called a Wide-area network
 becouse it spans beyond a single building or large compus to include multiple locations spread across a specific geographic area, or even the world.
 
+***Networking Basics:
+   ------------------
+A device/system connects to the network with the help of network interface.Network interface gets an IP address which is allocated by DHCP.
+[DHCP( Dynamic Host Configuration Protocal)is a client/server protocal that automatically provides an internet protocal host with it's IP address
+ & other related configuration information such as the subnet mask and defult gateway.]
+
+  
 
 
-
+                                                                                                           
+IP connected device <--------------> Request access <-----------> DHCP server IPV4/IPV6 -----------------> Networking configuration paramenters
+                                           |                                                                              |
+                                       IP address                                                           | --------Default gateway
+                                                                                                            | --------Subnet mask
+                                                                                                            | --------DNS server
+->In our home network, the DHCP server is inside your router.
+->DHCP maintains list of available IP addresses and the whole range of network.
+->Range of network is IP address range.
 
 
 
