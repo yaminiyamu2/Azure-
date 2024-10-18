@@ -102,7 +102,7 @@ Broadcast IP= 205.150.65.63                                                     
 
 Note: Dynamic IP addresses periodically change --------------Static IP address never change.
             |                                                        |
-            |                                                ____________________________________________________
+            |                                                ________v___________________________________________
             |                                                |       |   _______________DNS server              |
 _____________________             __________                 |       |                                          |
 |   Local Network    -----------> | Router |  ------------>  |  ISP Router IP                                   |
@@ -142,6 +142,41 @@ Non-adaptive Alogorithm :----Static routers.
 
 
 
+***NAT( Network address translation ):
+   ------------------------------------
+Network address translation is a method of maping an IP address space into another by modifying network address information in the IP header 
+of packets while they are in transit across a trafic routing device.
+
+
+***Gateway:
+   --------
+A gateway is a network node used in telecommunication that connect two networks with different transmission protocals together. Gateways server as an entry & exit
+point for a network as all data must pass through or communicate with the gateway prior to being routed.
+
+                     Drive     <-------> |                                  | <------>
+                     Sensors   <-------> | -----> Gateway <--------->Cloud  | <------> system AND serviers
+                     Actuators <-------> |                                  | <------>
+There are 2 main types of Gateways:
+1. Unidirectinal gateways.
+2.Bidirectinal Gateways.
+
+
+***DNS(Domain Name Sysytem):
+   -------------------------
+DNS is a hierarchical naming system that allows communication across device on a network.Most commonly, ittranslates human-readable
+domain names to computer friendly internet protocal(IP) addresses.
+->DNS translate domain name to IP addresses so browsers can load internet resourses.
+
+
+***VPN( Virtual Private Network):
+   ------------------------------
+A VPN is an encrypted connection over the internet from a device to a network. The encripted connection helps ensure that sensitive data is safely
+transmitted. It prevents unauthorized people from eavesdropping on the trafic & allows to user to conduct work remotely.
+
+***WAN( Wide-area network):
+   ------------------------
+WAN is the technology that connects your offices,data centures,cloud applications & cloud storage together. It is called a Wide-area network
+becouse it spans beyond a single building or large compus to include multiple locations spread across a specific geographic area, or even the world.
 
 
 
